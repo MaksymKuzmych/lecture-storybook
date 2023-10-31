@@ -8,15 +8,15 @@ Authenticated with Chromatic
     → Using project token '****************b44e'
 Retrieving git information
 Retrieved git information
-    → Commit '1a97859' on branch 'main'; no ancestor found
+    → Commit '6c7dc18' on branch 'main'; found 1 parent build
 Collecting Storybook metadata
 Collected Storybook metadata
     → Storybook 7.5.2 for React; using the @storybook/react-webpack5 builder (7.5.2); supported addons found: Links, Essentials, Interactions
 Initializing build
 Initialized build
-    → Build 1 initialized
+    → Build 2 initialized
 Building your Storybook
-    → Running command: yarn run build-storybook --output-dir /var/folders/_l/4x_99hxs34qbd9s06lqh_gzh0000gn/T/chromatic--3363-U2Ea4yvsK2Wf
+    → Running command: yarn run build-storybook --output-dir /var/folders/_l/4x_99hxs34qbd9s06lqh_gzh0000gn/T/chromatic--3791-Cofok54UafBV
 Storybook built in 7 seconds
     → View build log at /Users/nebuddha/Simple2B/lecture-storybook/my-app/build-storybook.log
 Publish your built Storybook
@@ -28,59 +28,47 @@ Publishing your built Storybook
     → [==                  ] 11%
     → [===                 ] 15%
     → [====                ] 19%
-    → [====                ] 21%
+    → [====                ] 20%
     → [=====               ] 24%
-    → [=====               ] 25%
+    → [======              ] 28%
     → [======              ] 29%
     → [======              ] 30%
     → [=======             ] 34%
     → [=======             ] 37%
-    → [========            ] 39%
+    → [========            ] 38%
     → [========            ] 42%
-    → [=========           ] 44%
+    → [=========           ] 43%
     → [=========           ] 45%
     → [=========           ] 47%
     → [==========          ] 48%
     → [==========          ] 50%
     → [==========          ] 51%
-    → [==========          ] 52%
     → [===========         ] 53%
     → [===========         ] 54%
     → [===========         ] 55%
-    → [===========         ] 57%
     → [============        ] 58%
-    → [============        ] 59%
-    → [============        ] 61%
+    → [============        ] 60%
     → [============        ] 62%
     → [=============       ] 64%
-    → [==============      ] 68%
-    → [==============      ] 69%
-    → [==============      ] 70%
+    → [=============       ] 67%
+    → [==============      ] 72%
     → [===============     ] 73%
     → [===============     ] 75%
-    → [===============     ] 76%
-    → [===============     ] 77%
     → [================    ] 79%
-    → [================    ] 81%
-    → [================    ] 82%
     → [=================   ] 83%
     → [=================   ] 86%
-    → [=================   ] 87%
     → [==================  ] 88%
-    → [==================  ] 90%
-    → [==================  ] 91%
     → [=================== ] 93%
-    → [=================== ] 95%
+    → [=================== ] 94%
     → [=================== ] 97%
-    → [====================] 98%
     → [====================] 99%
     → [====================] 100%
-Publish complete in 15 seconds
-    → View your Storybook at https://6540f35e29b6daf2020e0e0d-ceqmplvdpe.chromatic.com
+Publish complete in 16 seconds
+    → View your Storybook at https://6540f35e29b6daf2020e0e0d-xqrhlrkmhm.chromatic.com
 Verifying your Storybook
     → This may take a few minutes
-Started build 1
-    → Continue setup at https://www.chromatic.com/setup?appId=6540f35e29b6daf2020e0e0d
+Started build 2
+    → View build details at https://www.chromatic.com/build?appId=6540f35e29b6daf2020e0e0d&number=2
 Running 8 tests
     → This may take a few minutes
 ℹ Speed up Continuous Integration
@@ -88,14 +76,12 @@ Your project is linked to GitHub so Chromatic will report results there.
 This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
 Read more here: https://www.chromatic.com/docs/cli#chromatic-options
     → [===                 ] 1/8  Card › Primary Card 
-    → [========            ] 3/8  MyInput › Primary 
-    → [=============       ] 5/8  Button › Secondary 
-    → [==================  ] 7/8  Button › Small 
+    → [=====               ] 2/8  Card › Secondary Card 
+    → [==========          ] 4/8  Button › Primary 
+    → [===============     ] 6/8  Button › Large 
     → [====================] 8/8  Button › Warning 
-✔ Build passed. Welcome to Chromatic!
-We found 3 components with 8 stories and took 8 snapshots.
-ℹ Please continue setup at https://www.chromatic.com/setup?appId=6540f35e29b6daf2020e0e0d
-Build 1 auto-accepted
-    → Tested 8 stories across 3 components; captured 8 snapshots in 18 seconds
+✖ Found 3 visual changes: Review the changes at https://www.chromatic.com/build?appId=6540f35e29b6daf2020e0e0d&number=2
 
-
+ℹ For CI/CD use cases, this command failed with exit code 1
+Pass --exit-zero-on-changes to succeed this command regardless of changes.
+Pass --auto-accept-changes to succeed and automatically accept any changes.
