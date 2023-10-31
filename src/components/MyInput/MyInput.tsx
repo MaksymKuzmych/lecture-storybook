@@ -17,7 +17,7 @@ export const MyInput = ({
 }: IMyInputProps) => {
   return (
     <>
-      <p>{title}</p>
+      <p>{title} 12345</p>
       <div style={{ backgroundColor: bgColor, borderRadius, padding: '30px' }}>
         <input type='text' value={value} onChange={handleChange} />
       </div>
